@@ -33,12 +33,6 @@ const routes = [
     meta: { auth: true }
   },
   {
-    path: '/SiteList',
-    name: 'SiteList',
-    component: SiteList,
-    meta: { auth: true }
-  },
-  {
     path: '/ScrollList',
     name: 'ScrollList',
     component: ScrollList,

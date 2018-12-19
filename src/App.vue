@@ -1,9 +1,12 @@
 <template>
   <div id="app" class="wrap_games">
     <app-header></app-header>
-
+    
+    <transition name="fade" mode="out-in">
       <router-view/>
-      <hr class="hide" />
+    </transition>
+    
+    <hr class="hide" />
 
     <app-footer></app-footer>
   </div>
