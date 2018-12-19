@@ -23,6 +23,9 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .hide{display:none}
 .img_thumb{width:100%;vertical-align:top}
 
+.link_code{display:inline-block;margin:0 6px 0 10px;padding:0 10px;font-weight:400;font-size:12px;line-height:22px;border-radius:3px;background-color:#333;color:#fff;vertical-align:middle}
+.link_code:hover{background-color:#000;text-decoration:none}
+
 /* list */
 .list_visual{margin-top:60px;clear:both}
 .list_visual li{float:left;position:relative;width:545px;margin:0 0 65px 0}
@@ -39,6 +42,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .list_visual .txt_date{font-weight:600;color:#777}
 .list_visual .group_btn{margin-top:10px}
 
+.list_particle{overflow:hidden}
 .list_particle li{float:left;width:300px;margin:0 25px 35px 0}
 .list_particle .num_visual{position:absolute;top:8px;left:12px;font-weight:bold;font-size:23px;color:#fff;letter-spacing:0.02em}
 .list_particle .link_particle{display:block}
@@ -53,19 +57,16 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .list_info dt{display:none}
 .list_info dd{float:left;padding-right:15px}
 
-.list_layers li + li{margin-top:28px}
-.list_layers [class*="link_layers"]{display:block;overflow:hidden;line-height:28px;text-decoration:none}
-.list_layers .tit_layers{float:left;min-width:50px;padding-right:10px;font-weight:bold;font-size:22px;}
-.list_layers .txt_layers{display:block;overflow:hidden;font-size:16px;color:#777}
-.list_layers .txt_bar{padding:0 6px;color:#b4b4b4}
-.list_layers .em_layer{color:#000}
-
-.list_spa{max-width:1200px}
-.list_spa li{font-size:20px;line-height:30px}
-.list_spa li + li{margin-top:30px}
-.list_spa .group_link{float:right}
-.list_spa .link_page{display:inline-block;font-size:16px}
-.list_spa .link_page + .link_page{margin-left:40px}
+.list_pages li{overflow:hidden;max-width:800px;line-height:28px}
+.list_pages li + li{margin-top:28px}
+.list_pages [class*="link_pages"]{display:inline-block;overflow:hidden;line-height:28px;text-decoration:none;vertical-align:middle}
+.list_pages .tit_pages{float:left;min-width:50px;padding-right:10px;font-weight:bold;font-size:22px;}
+.list_pages .txt_pages{float:left;overflow:hidden;font-size:16px;color:#777}
+.list_pages .txt_bar{padding:0 6px;color:#b4b4b4}
+.list_pages .em_layer{color:#000}
+.list_pages .group_link{float:right;font-size:16px}
+.list_pages .link_page{display:inline-block}
+.list_pages .link_page + .link_page{margin-left:40px}
 
 /* layout */
 .skipnavi{display:none}

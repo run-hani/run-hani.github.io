@@ -5,35 +5,36 @@
     </div>
 	<div class="inner_cont">
   <p class="txt_section">닫기 버튼 효과는 다른 레이어 팝업에도 적용이 가능합니다.</p>
-    <ul class="list_layers">
+    <ul class="list_pages">
       <li>
-        <a href="#none" class="link_layers1">
-          <strong class="tit_layers">#1.</strong>
-          <span class="txt_layers">제자리에서 Fade In 됩니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
+        <a href="#none" class="link_pages1">
+          <strong class="tit_pages">#1.</strong>
+          <span class="txt_pages">제자리에서 Fade In 됩니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
+        </a>
+        <a href="#none" class="link_code">CODE</a>
+      </li>
+      <li>
+        <a href="#none" class="link_pages2">
+          <strong class="tit_pages">#2.</strong>
+          <span class="txt_pages">아래에서 위로 Fade In 되며 올라옵니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 살짝 위로 올라가는 효과</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="link_layers2">
-          <strong class="tit_layers">#2.</strong>
-          <span class="txt_layers">아래에서 위로 Fade In 되며 올라옵니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 살짝 위로 올라가는 효과</span>
+        <a href="#none" class="link_pages3">
+          <strong class="tit_pages">#3.</strong>
+          <span class="txt_pages">위에서 아래로 Fade In 되며 내려옵니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 확대 효과</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="link_layers3">
-          <strong class="tit_layers">#3.</strong>
-          <span class="txt_layers">위에서 아래로 Fade In 되며 내려옵니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 확대 효과</span>
+        <a href="#none" class="link_pages4">
+          <strong class="tit_pages">#4.</strong>
+          <span class="txt_pages">가운데를 기준으로 양옆으로 펼쳐집니다. (이미지 컨텐츠만 가능) <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
         </a>
       </li>
       <li>
-        <a href="#none" class="link_layers4">
-          <strong class="tit_layers">#4.</strong>
-          <span class="txt_layers">가운데를 기준으로 양옆으로 펼쳐집니다. (이미지 컨텐츠만 가능) <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
-        </a>
-      </li>
-      <li>
-        <a href="#none" class="link_layers5">
-          <strong class="tit_layers">#5.</strong>
-          <span class="txt_layers">열릴 때 제자리에서 Fade In 되나, 닫힐 때 효과가 없습니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
+        <a href="#none" class="link_pages5">
+          <strong class="tit_pages">#5.</strong>
+          <span class="txt_pages">열릴 때 제자리에서 Fade In 되나, 닫힐 때 효과가 없습니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
         </a>
       </li>
     </ul>
@@ -200,11 +201,11 @@
        return _;
      }
 
-     $('.link_layers1').layerComm({ layerPop: $('.type1_layer') });
-     $('.link_layers2').layerComm({ layerPop: $('.type2_layer') });
-     $('.link_layers3').layerComm({ layerPop: $('.type3_layer') });
-     $('.link_layers4').layerComm({ layerPop: $('.type4_layer') });
-     $('.link_layers5').layerComm({ layerPop: $('.type5_layer'), closeSpeed: 0});
+     $('.link_pages1').layerComm({ layerPop: $('.type1_layer') });
+     $('.link_pages2').layerComm({ layerPop: $('.type2_layer') });
+     $('.link_pages3').layerComm({ layerPop: $('.type3_layer') });
+     $('.link_pages4').layerComm({ layerPop: $('.type4_layer') });
+     $('.link_pages5').layerComm({ layerPop: $('.type5_layer'), closeSpeed: 0});
     }
   }
 </script>
