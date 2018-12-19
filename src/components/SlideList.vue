@@ -3,9 +3,9 @@
 	<div class="spot_games">
 		<h2 class="tit_cate">슬라이드</h2>
     </div>
-	<div class="inner_cont">
-   
-	</div>
+    <div class="inner_cont">
+      준비중입니다.
+    </div>
   </div>
 </template>
 

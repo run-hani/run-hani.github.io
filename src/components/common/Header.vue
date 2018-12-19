@@ -14,12 +14,12 @@
 		</h1>
 
 		<ul class="menu_games">
-			<router-link to="/" active-class="on" tag="li" exact><a href="#none" class="link_menu">사이트</a></router-link>
-			<router-link to="/ScrollList" active-class="on" tag="li"><a href="#none" class="link_menu">스크롤 모션</a></router-link>
-			<router-link to="/ParticleList" active-class="on" tag="li"><a href="#none" class="link_menu">파티클</a></router-link>
-			<router-link to="/SlideList" active-class="on" tag="li"><a href="#none" class="link_menu">슬라이드</a></router-link>
-			<router-link to="/LayerList" active-class="on" tag="li"><a href="#none" class="link_menu">레이어 팝업</a></router-link>
-			<router-link to="/BtnList" active-class="on" tag="li"><a href="#none" class="link_menu">버튼</a></router-link>
+			<router-link to="/docs/" active-class="on" tag="li" exact><a href="#none" class="link_menu">사이트</a></router-link>
+			<router-link to="/docs/ScrollList" active-class="on" tag="li"><a href="#none" class="link_menu">스크롤 모션</a></router-link>
+			<router-link to="/docs/ParticleList" active-class="on" tag="li"><a href="#none" class="link_menu">파티클</a></router-link>
+			<router-link to="/docs/SlideList" active-class="on" tag="li"><a href="#none" class="link_menu">슬라이드</a></router-link>
+			<router-link to="/docs/LayerList" active-class="on" tag="li"><a href="#none" class="link_menu">레이어 팝업</a></router-link>
+			<router-link to="/docs/BtnList" active-class="on" tag="li"><a href="#none" class="link_menu">버튼</a></router-link>
 		</ul>
 		<!-- //lnb -->
 		<hr class="hide" />

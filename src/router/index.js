@@ -27,37 +27,37 @@ Vue.use(Router)
 
 const routes = [
   {
-    path: '/',
+    path: '/docs/',
     name: 'SiteList',
     component: SiteList,
     meta: { auth: true }
   },
   {
-    path: '/ScrollList',
+    path: '/docs/ScrollList',
     name: 'ScrollList',
     component: ScrollList,
     meta: { auth: true }
   },
   {
-    path: '/ParticleList',
+    path: '/docs/ParticleList',
     name: 'ParticleList',
     component: ParticleList,
     meta: { auth: true }
   },
   {
-    path: '/SlideList',
+    path: '/docs/SlideList',
     name: 'SlideList',
     component: SlideList,
     meta: { auth: true }
   },
   {
-    path: '/LayerList',
+    path: '/docs/LayerList',
     name: 'LayerList',
     component: LayerList,
     meta: { auth: true }
   },
   {
-    path: '/BtnList',
+    path: '/docs/BtnList',
     name: 'BtnList',
     component: BtnList,
     meta: { auth: true }

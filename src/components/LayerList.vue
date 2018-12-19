@@ -11,31 +11,35 @@
           <strong class="tit_pages">#1.</strong>
           <span class="txt_pages">제자리에서 Fade In 됩니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
         </a>
-        <a href="#none" class="link_code">CODE</a>
+        <a href="#none" target="_blank" class="link_code">CODE</a>
       </li>
       <li>
         <a href="#none" class="link_pages2">
           <strong class="tit_pages">#2.</strong>
           <span class="txt_pages">아래에서 위로 Fade In 되며 올라옵니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 살짝 위로 올라가는 효과</span>
         </a>
+        <a href="#none" target="_blank" class="link_code">CODE</a>
       </li>
       <li>
         <a href="#none" class="link_pages3">
           <strong class="tit_pages">#3.</strong>
           <span class="txt_pages">위에서 아래로 Fade In 되며 내려옵니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 확대 효과</span>
         </a>
+        <a href="#none" target="_blank" class="link_code">CODE</a>
       </li>
       <li>
         <a href="#none" class="link_pages4">
           <strong class="tit_pages">#4.</strong>
           <span class="txt_pages">가운데를 기준으로 양옆으로 펼쳐집니다. (이미지 컨텐츠만 가능) <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
         </a>
+        <a href="#none" target="_blank" class="link_code">CODE</a>
       </li>
       <li>
         <a href="#none" class="link_pages5">
           <strong class="tit_pages">#5.</strong>
           <span class="txt_pages">열릴 때 제자리에서 Fade In 되나, 닫힐 때 효과가 없습니다. <span class="txt_bar">|</span> <strong class="em_layer">닫기 :</strong> 회전 효과</span>
         </a>
+        <a href="#none" target="_blank" class="link_code">CODE</a>
       </li>
     </ul>
 
