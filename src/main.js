@@ -6,8 +6,6 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 
-import './assets/css/style.css'
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
