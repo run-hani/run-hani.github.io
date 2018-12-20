@@ -1,0 +1,25 @@
+{
+	"short_name": "Motion Guide",
+	"name": "Motion Guide",
+	"icons": [
+		{
+			"src": "src/assets/comm/launcher-icon-1x.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "src/assets/comm/launcher-icon-2x.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "src/assets/comm/launcher-icon-4x.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		}
+	],
+	"display": "browser",
+	"theme_color": "#000",
+	"background_color": "#fff",
+	"start_url": "/docs/"
+}
