@@ -7,7 +7,7 @@
 
 	<header class="head_games">
 		<h1 class="logo_games">
-			<router-link to="/" class="link_logo" exact>
+			<router-link to="/docs/" class="link_logo" exact>
 				<img src="../../assets/img/logo_games.png" class="img_logo" alt="dk techin">
 					<span class="txt_logo">모션 가이드</span>
 			</router-link>
