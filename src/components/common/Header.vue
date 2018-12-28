@@ -1,10 +1,4 @@
 <template>
-  <div>
-	<ul class="skipnavi">
-	  <li><a href="#container">본문 바로가기</a></li>
-	</ul>
-	<!-- //skip navi -->
-
 	<header class="head_games">
 		<h1 class="logo_games">
 			<router-link to="/docs/" class="link_logo" exact>
@@ -25,7 +19,6 @@
 		<hr class="hide" />
 	</header>
 	<!-- //header -->
-  </div>
 </template>
 
 <script>

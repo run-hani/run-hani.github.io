@@ -50,7 +50,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 .list_particle .area_info{display:block;overflow:hidden;padding:12px 0;line-height:24px}
 .list_particle .tit_particle{float:left;font-size:18px}
 .list_particle .txt_more{float:right;font-size:13px;color:#777}
-.list_particle .txt_type{position:absolute;right:8px;bottom:7px;padding:5px 10px 2px;font-weight:bold;font-size:12px;border-radius:3px 3px 8px 3px;background-color:#a2a1a1;color:#fff}
+.list_particle .txt_type{position:absolute;right:8px;bottom:7px;padding:4px 10px;font-weight:500;font-size:12px;border-radius:3px 3px 8px 3px;background-color:#a2a1a1;color:#fff;letter-spacing:0.025em}
 .list_particle .img_thumb{height:180px}
 
 .list_info{overflow:hidden;margin-top:22px}
@@ -95,7 +95,7 @@ address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 
 /* box */
 .box_srch{margin:-10px 0 50px}
-.box_srch .select_srch{display:inline-block;width:100px;height:38px;padding:0 10px;line-height:30px;font-size:14px;border:1px solid #000;vertical-align:top;box-sizing:border-box}
+.box_srch .select_srch{display:inline-block;width:100px;height:38px;padding:0 10px;line-height:30px;font-size:14px;border:1px solid #000;background-color:#fff;vertical-align:top;box-sizing:border-box}
 .box_srch .tf_srch{display:inline-block;width:200px;height:38px;padding:0 10px;line-height:30px;border:1px solid #000;border-radius:5px;vertical-align:top;box-sizing:border-box}
 
 .box_btn{display:table;float:left;position:relative;width:170px;height:146px;margin:0 70px 35px 0;border-radius:10px;box-sizing:border-box}
